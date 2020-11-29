@@ -1,0 +1,10 @@
+# File post test
+http localhost:8000/extract-pdf < .\hackathon\test\test.pdf
+
+# File post test (proxy)
+http --proxy=http:http://172.24.2.10:8080 --proxy=https:https://172.24.2.10:8080 localhost:8000/extract-pdf < .\hackathon\test\test.pdf
+
+# File post test (pattern 2)
+http -f POST 52.194.212.53:8080/extract-pdf file@.\hackathon\test\test.pdf
+
+# End

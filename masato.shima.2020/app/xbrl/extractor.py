@@ -37,9 +37,9 @@ NUMBERS = [
 def main():
 
 	sample = (
-		"/Users/Masato/PycharmProjects/QUICK-Study-Language/masato.shima.2020/data/8001/"
-		"有価証券報告書－第96期(平成31年4月1日－令和2年3月31日)/S100ITS8/XBRL/PublicDoc/"
-		"0102010_honbun_jpcrp030000-asr-001_E02497-000_2020-03-31_01_2020-06-19_ixbrl.htm"
+		f"{DIR_DATA}8001/"
+		f"有価証券報告書－第96期(平成31年4月1日－令和2年3月31日)/S100ITS8/XBRL/PublicDoc/"
+		f"0102010_honbun_jpcrp030000-asr-001_E02497-000_2020-03-31_01_2020-06-19_ixbrl.htm"
 	)
 
 	load_lxml(sample)

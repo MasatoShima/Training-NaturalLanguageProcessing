@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "masato.shima.2020"
+version = "0.1.0"
+description = ""
+authors = ["MasatoShima <masato.shima@icloud.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8.3"
+lxml = "^4.6.2"
+pandas = "^1.1.4"
+
+[tool.poetry.dev-dependencies]
+lxml-stubs = "^0.1.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

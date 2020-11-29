@@ -75,18 +75,14 @@ def load_lxml(path: str):
 	title = None
 
 	for match in matches:
-		children = lxml.etree.parse(io.BytesIO(lxml.etree.tostring(match)))
-		children = children.xpath("//*", namespaces=namespaces)
+		content = lxml.etree.tostring(match, method="text", encoding="utf-8").decode()
+		content = content.strip()
 
-		for child in children:
-			content = child.text
-			content = content.strip()
-
-			if re.match(r"^（.+）.*", content):
-				title = content
-				contents[title] = []
-			elif content:
-				contents[title].append(content)
+		if re.match(r"^（.+）.*", content):
+			title = content
+			contents[title] = []
+		elif content:
+			contents[title].append(content)
 
 	# xbrl より取得した要素の含まれる文書の構成が nest したものとなっている場合,
 	# それらの解析も行う

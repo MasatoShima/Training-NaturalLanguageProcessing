@@ -13,6 +13,7 @@ import json
 import os
 import re
 from collections import defaultdict
+from typing import Dict, List, Union
 
 import lxml.etree
 
@@ -36,13 +37,20 @@ NUMBERS = [
 # **************************************************
 def main():
 
-	sample = (
-		f"{DIR_DATA}8001/"
-		f"有価証券報告書－第96期(平成31年4月1日－令和2年3月31日)/S100ITS8/XBRL/PublicDoc/"
-		f"0102010_honbun_jpcrp030000-asr-001_E02497-000_2020-03-31_01_2020-06-19_ixbrl.htm"
-	)
+	samples = [
+		(
+			f"{DIR_DATA}8001/"
+			f"有価証券報告書－第96期(平成31年4月1日－令和2年3月31日)/S100ITS8/XBRL/PublicDoc/"
+			f"0102010_honbun_jpcrp030000-asr-001_E02497-000_2020-03-31_01_2020-06-19_ixbrl.htm"
+		)
+	]
 
-	load_lxml(sample)
+	for sample in samples:
+		xbrl = load_lxml(sample)
+
+		contents = extract_sentences(xbrl)
+
+		print(json.dumps(contents, ensure_ascii=False, indent=4))
 
 	return
 
@@ -50,11 +58,20 @@ def main():
 # **************************************************
 # ----- Function load_lxml
 # **************************************************
-def load_lxml(path: str):
+def load_lxml(path: str) -> io.BytesIO:
 	with open(path, "rb") as file:
 		xbrl = file.read()
 		xbrl = io.BytesIO(xbrl)
 
+	return xbrl
+
+
+# **************************************************
+# ----- Function extract_sentences
+# **************************************************
+def extract_sentences(
+		xbrl: io.BytesIO
+) -> Dict[str, Union[List[str], Dict[str, List[str]]]]:
 	# xbrl を parse
 	tree = lxml.etree.parse(xbrl)
 
@@ -104,9 +121,7 @@ def load_lxml(path: str):
 				else:
 					contents[title][title_sub].append(c)
 
-	print(json.dumps(contents, ensure_ascii=False, indent=4))
-
-	return
+	return contents
 
 
 # **************************************************

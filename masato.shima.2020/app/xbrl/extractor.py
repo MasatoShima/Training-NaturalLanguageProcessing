@@ -91,6 +91,7 @@ def extract_sentences(
 
 	title = None
 
+	# :TODO 文書の構成解析については, もっとシンプルにできそう...
 	for match in matches:
 		content = lxml.etree.tostring(match, method="text", encoding="utf-8").decode()
 		content = content.strip()

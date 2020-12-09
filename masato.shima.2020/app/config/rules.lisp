@@ -5,7 +5,7 @@
 ((id . template1))
   (#a0.lemma=受ける&.POS=動詞
     *
-    (.lemma=影響&.POS=名詞&.POS2=サ変接続&.case=を&.casePOS=助詞&.casePOS2=格助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
+    (.lemma=影響&.POS=名詞&.POS2=サ変接続&.casePOS=助詞&.casePOS2=格助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
       *
     )
     *

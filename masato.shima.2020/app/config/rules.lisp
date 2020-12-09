@@ -4,6 +4,7 @@
 ; generated: 2020/12/09 02:57:11
 ((id . template1))
   (#a0.lemma=受ける|大きくなる&.POS=動詞
+    *
     (.lemma=影響&.POS=名詞&.POS2=サ変接続&.casePOS=助詞&.casePOS2=格助詞
       *
     )

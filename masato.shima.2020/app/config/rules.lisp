@@ -4,9 +4,7 @@
 ; generated: 2020/12/09 02:57:11
 ((id . template1))
   *
-  (.lemma=受ける&.POS=動詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
-    *
-  )
+  (.lemma=受ける&.POS=動詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
   *
 )
 )

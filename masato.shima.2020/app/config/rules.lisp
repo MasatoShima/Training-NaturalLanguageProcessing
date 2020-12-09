@@ -3,6 +3,37 @@
 ; 主な事業領域ごとの特性として、プラント・自動車・建設機械等の機械関連取引、金属資源・エネルギー・化学品等のトレード並びに開発投資については世界経済の動向に大きく影響を受ける一方、繊維・食料等の生活消費分野は相対的に国内景気の影響を受けやすいと言えます。
 ; generated: 2020/12/09 02:57:11
 ((id . template1))
-  (.lemma=受ける&.POS=動詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
+(.lemma=言える&.POS=動詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=。&.suf=""&.tense=""&.suf_str=""&.tense_str=""
+  (.lemma=特性&.POS=名詞&.POS2=一般&.case=として&.casePOS=助詞&.casePOS2=格助詞&.symbol=、&.suf=""&.tense=""&.suf_str=""&.tense_str=""
+    (.lemma=事業領域&.POS=名詞&.POS2=一般&.case=の&.casePOS=助詞&.casePOS2=連体化&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
+      (.lemma=主&.POS=名詞&.POS2=形容動詞語幹&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
+    )
+  )
+  (.lemma=開発投資&.POS=名詞&.POS2=サ変接続&.case=については&.casePOS=助詞&.casePOS2=係助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
+    (.lemma=機械関連取引&.POS=名詞&.POS2=サ変接続&.case=""&.casePOS=""&.casePOS2=""&.symbol=、&.suf=""&.tense=""&.suf_str=""&.tense_str=""
+      (.lemma=プラント自動車建設機械等&.POS=名詞&.POS2=接尾&.case=の&.casePOS=助詞&.casePOS2=連体化&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
+    )
+    (.lemma=金属資源エネルギー化学品等&.POS=名詞&.POS2=一般&.case=の&.casePOS=助詞&.casePOS2=連体化&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
+    (.lemma=トレード&.POS=名詞&.POS2=サ変接続&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
+  )
+  (.lemma=一方&.POS=名詞&.POS2=非自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=、&.suf=""&.tense=""&.suf_str=""&.tense_str=""
+    (.lemma=受ける&.POS=動詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
+      (.lemma=動向&.POS=名詞&.POS2=一般&.case=に&.casePOS=助詞&.casePOS2=格助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
+        (.lemma=世界経済&.POS=名詞&.POS2=一般&.case=の&.casePOS=助詞&.casePOS2=連体化&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
+      )
+      (.lemma=大きい&.POS=形容詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
+      (.lemma=影響&.POS=名詞&.POS2=サ変接続&.case=を&.casePOS=助詞&.casePOS2=格助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
+    )
+  )
+  (.lemma=生活消費分野&.POS=名詞&.POS2=一般&.case=は&.casePOS=助詞&.casePOS2=係助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
+    (.lemma=繊維食料等&.POS=名詞&.POS2=接尾&.case=の&.casePOS=助詞&.casePOS2=連体化&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
+  )
+  (.lemma=受ける&.POS=動詞&.POS2=自立&.case=と&.casePOS=助詞&.casePOS2=格助詞&.symbol=""&.suf=やすい&.tense=""&.suf_str=やすい&.tense_str=""
+    (.lemma=相対的&.POS=名詞&.POS2=接尾&.case=に&.casePOS=助詞&.casePOS2=副詞化&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
+    (.lemma=影響&.POS=名詞&.POS2=サ変接続&.case=を&.casePOS=助詞&.casePOS2=格助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
+      (.lemma=国内景気&.POS=名詞&.POS2=一般&.case=の&.casePOS=助詞&.casePOS2=連体化&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
+    )
+  )
+)
 )
 )

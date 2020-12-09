@@ -22,6 +22,7 @@ def main():
 		contents = [content.strip() for content in contents]
 
 	rules = h.generate_rule_pattern(contents)
+
 	print(rules)
 
 	with open(f"data/rules.lisp", "w", encoding="utf-8") as file:

@@ -35,6 +35,7 @@ def main():
 	matches = h.match(rules_parsed, [rules])
 
 	results = h.extract_annotation(matches, ["text"])
+
 	print(results)
 
 	return

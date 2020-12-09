@@ -10,7 +10,7 @@ Description:
 # **************************************************
 import json
 
-import hsde.hsde as hsde
+import hsde.hsde as entrypoint
 import xbrl.extractor as extractor
 
 # from app.hsde import hsde
@@ -47,11 +47,11 @@ def main() -> None:
 		for key, item in contents.items():
 			if isinstance(item, list):
 				for i in item:
-					hsde.main(i)
+					entrypoint.main(i)
 			elif isinstance(item, dict):
 				for k, v in item.items():
 					for v_ in v:
-						hsde.main(v_)
+						entrypoint.main(v_)
 
 	return
 

@@ -10,7 +10,7 @@ Description:
 # **************************************************
 import json
 
-import hsde.hsde as entrypoint
+import entrypoint.entrypoint as entrypoint
 import xbrl.extractor as extractor
 
 # from app.hsde import hsde

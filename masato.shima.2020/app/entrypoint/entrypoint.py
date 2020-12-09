@@ -1,5 +1,5 @@
 """
-Name: hsde.py
+Name: entrypoint.py
 Created by: Masato Shima
 Created on: 2020/12/09
 Description:

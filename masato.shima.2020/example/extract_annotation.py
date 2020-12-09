@@ -17,8 +17,10 @@ import hsde
 def main():
 	h = hsde.Hsde()
 
+	# For example
 	# rules = h.compile(name="template1", rules=["data/rules.lisp"], dicts=[])
 
+	# For debug
 	rules = h.compile(name="template1", rules=["./../app/config/rules.lisp"], dicts=[])
 
 	sample_text = [

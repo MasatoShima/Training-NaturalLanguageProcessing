@@ -5,11 +5,9 @@
 ((id . template1))
 (.lemma=言える&.POS=動詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=。&.suf=""&.tense=""&.suf_str=""&.tense_str=""
   *
-  (.lemma=一方&.POS=名詞&.POS2=非自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=、&.suf=""&.tense=""&.suf_str=""&.tense_str=""
-    (#a0.lemma=受ける&.POS=動詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
-      *
-      (.lemma=影響&.POS=名詞&.POS2=サ変接続&.case=を&.casePOS=助詞&.casePOS2=格助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
-    )
+  (#a0.lemma=受ける&.POS=動詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
+    *
+    (.lemma=影響&.POS=名詞&.POS2=サ変接続&.case=を&.casePOS=助詞&.casePOS2=格助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
   )
   *
 )

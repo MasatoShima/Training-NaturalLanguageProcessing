@@ -100,7 +100,7 @@ def extract_sentences(
 			title = content
 			contents[title] = []
 		elif content:
-			contents[title].append(content)
+			contents[title].extend(content.split("。"))
 
 	# xbrl より取得した要素の含まれる文書の構成が nest したものとなっている場合,
 	# それらの解析も行う

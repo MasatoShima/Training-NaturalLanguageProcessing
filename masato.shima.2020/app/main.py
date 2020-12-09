@@ -10,8 +10,8 @@ Description:
 # **************************************************
 import json
 
-import app.hsde.hsde as hsde
-import app.xbrl.extractor as extractor
+import hsde.hsde as hsde
+import xbrl.extractor as extractor
 
 # from app.hsde import hsde
 # from app.xbrl import extractor

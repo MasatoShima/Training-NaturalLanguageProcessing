@@ -3,12 +3,10 @@
 ; 主な事業領域ごとの特性として、プラント・自動車・建設機械等の機械関連取引、金属資源・エネルギー・化学品等のトレード並びに開発投資については世界経済の動向に大きく影響を受ける一方、繊維・食料等の生活消費分野は相対的に国内景気の影響を受けやすいと言えます。
 ; generated: 2020/12/09 02:57:11
 ((id . template1))
-(.lemma=言える&.POS=動詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=。&.suf=""&.tense=""&.suf_str=""&.tense_str=""
   *
   (.lemma=受ける&.POS=動詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
     *
   )
   *
-)
 )
 )

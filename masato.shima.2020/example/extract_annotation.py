@@ -17,7 +17,9 @@ import hsde
 def main():
 	h = hsde.Hsde()
 
-	rules = h.compile(name="template1", rules=["data/rules.lisp"], dicts=[])
+	# rules = h.compile(name="template1", rules=["data/rules.lisp"], dicts=[])
+
+	rules = h.compile(name="template1", rules=["./../app/config/rules.lisp"], dicts=[])
 
 	sample_text = [
 		"主な事業領域ごとの特性として、"

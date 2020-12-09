@@ -32,7 +32,7 @@ def main(text: str):
 	results = h.extract_annotation(matches, ["text"])
 
 	print(results)
-	print(h.extract_annotation(matches, ["text"]))
+	print(h.extract_annotation(matches, ["token"]))
 
 	return
 

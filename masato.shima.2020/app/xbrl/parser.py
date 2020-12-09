@@ -1,5 +1,5 @@
 """
-Name: extractor.py
+Name: parser.py
 Created by: Masato Shima
 Created on: 2020/11/28
 Description:

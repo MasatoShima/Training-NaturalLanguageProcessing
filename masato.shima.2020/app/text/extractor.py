@@ -1,5 +1,5 @@
 """
-Name: entrypoint.py
+Name: extractor.py
 Created by: Masato Shima
 Created on: 2020/12/09
 Description:
@@ -32,7 +32,6 @@ def main(text: str):
 	results = h.extract_annotation(matches, ["text"])
 
 	print(results)
-	print(h.extract_annotation(matches, ["token"]))
 
 	return
 

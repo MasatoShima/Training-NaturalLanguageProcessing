@@ -10,8 +10,11 @@ Description:
 # **************************************************
 import json
 
-from app.text import extractor
-from app.xbrl import parser
+import text as text_tmp
+import xbrl as xbrl_tmp
+
+# from app.text import extractor
+# from app.xbrl import parser
 
 
 # **************************************************
@@ -34,9 +37,9 @@ def main() -> None:
 
 	for sample in samples:
 		# XBRL データより該当する箇所の文章を抽出
-		xbrl = parser.load_lxml(sample)
+		xbrl = xbrl_tmp.parser.load_lxml(sample)
 
-		contents = parser.extract_sentences(xbrl)
+		contents = xbrl_tmp.parser.extract_sentences(xbrl)
 
 		print(json.dumps(contents, ensure_ascii=False, indent=4))
 
@@ -44,11 +47,11 @@ def main() -> None:
 		for key, item in contents.items():
 			if isinstance(item, list):
 				for i in item:
-					extractor.main(i)
+					text_tmp.extractor.main(i)
 			elif isinstance(item, dict):
 				for k, v in item.items():
 					for v_ in v:
-						extractor.main(v_)
+						text_tmp.extractor.main(v_)
 
 	return
 

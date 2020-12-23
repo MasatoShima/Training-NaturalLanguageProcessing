@@ -20,18 +20,6 @@
 ((id . template2))
   (#a0.lemma=及ぼす&.POS=動詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
     *
-    (.lemma=業績&.POS=名詞&.POS2=一般&.case=に&.casePOS=助詞&.casePOS2=格助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
-      (.lemma=財政状態&.POS=名詞&.POS2=一般&.case=""&.casePOS=""&.casePOS2=""&.symbol=、&.suf=""&.tense=""&.suf_str=""&.tense_str=""
-        (.lemma=競争力&.POS=名詞&.POS2=接尾&.case=""&.casePOS=""&.casePOS2=""&.symbol=、&.suf=""&.tense=""&.suf_str=""&.tense_str=""
-          (.lemma=ビジネスモデル&.POS=名詞&.POS2=一般&.case=や&.casePOS=助詞&.casePOS2=並立助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
-            (.lemma=既存&.POS=名詞&.POS2=サ変接続&.case=の&.casePOS=助詞&.casePOS2=連体化&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
-              (.lemma=当社グループ&.POS=名詞&.POS2=一般&.case=の&.casePOS=助詞&.casePOS2=連体化&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
-            )
-          )
-        )
-        (.lemma=将来&.POS=名詞&.POS2=副詞可能&.case=の&.casePOS=助詞&.casePOS2=連体化&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
-      )
-    )
     (.lemma=影響&.POS=名詞&.POS2=サ変接続&.case=を&.casePOS=助詞&.casePOS2=格助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
       *
     )

@@ -23,7 +23,7 @@ DIR_CONFIG = "config/"
 def main(text: str):
 	h = hsde.Hsde()
 
-	rules = h.compile(name="template1", rules=[f"{DIR_CONFIG}rules.lisp"], dicts=[])
+	rules = h.compile(name="rule_group", rules=[f"{DIR_CONFIG}rules.lisp"], dicts=[])
 
 	rules_parsed = h.parse_sentences([text])
 

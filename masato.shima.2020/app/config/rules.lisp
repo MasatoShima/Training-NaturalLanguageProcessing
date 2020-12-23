@@ -19,13 +19,7 @@
 ; generated: 2020/12/16 07:15:11
 ((id . template2))
   (#a0.lemma=及ぼす&.POS=動詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
-    (.lemma=変化&.POS=名詞&.POS2=サ変接続&.case=が&.casePOS=助詞&.casePOS2=格助詞&.symbol=、&.suf=""&.tense=""&.suf_str=""&.tense_str=""
-      (.lemma=ビジネス環境&.POS=名詞&.POS2=一般&.case=の&.casePOS=助詞&.casePOS2=連体化&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
-        (.lemma=異業種参入等&.POS=名詞&.POS2=接尾&.case=の&.casePOS=助詞&.casePOS2=連体化&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
-          (.lemma=規制緩和&.POS=名詞&.POS2=サ変接続&.case=や&.casePOS=助詞&.casePOS2=並立助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
-        )
-      )
-    )
+    *
     (.lemma=業績&.POS=名詞&.POS2=一般&.case=に&.casePOS=助詞&.casePOS2=格助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
       (.lemma=財政状態&.POS=名詞&.POS2=一般&.case=""&.casePOS=""&.casePOS2=""&.symbol=、&.suf=""&.tense=""&.suf_str=""&.tense_str=""
         (.lemma=競争力&.POS=名詞&.POS2=接尾&.case=""&.casePOS=""&.casePOS2=""&.symbol=、&.suf=""&.tense=""&.suf_str=""&.tense_str=""
@@ -39,7 +33,7 @@
       )
     )
     (.lemma=影響&.POS=名詞&.POS2=サ変接続&.case=を&.casePOS=助詞&.casePOS2=格助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
-      (.lemma=重要&.POS=名詞&.POS2=形容動詞語幹&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str="")
+      *
     )
   )
 )

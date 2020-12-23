@@ -18,11 +18,9 @@
 ; また、世界経済全般のみならず、海外の特定地域に固有の経済動向に加え、近年の急速な技術革新等による産業構造等の変化、グローバル化に伴う新興成長国との競合激化、更には規制緩和や異業種参入等のビジネス環境の変化が、当社グループの既存のビジネスモデルや競争力、将来の財政状態、業績に重要な影響を及ぼす可能性があります。
 ; generated: 2020/12/16 07:15:11
 ((id . template2))
-  (#a0.lemma=及ぼす&.POS=動詞&.POS2=自立
+  (#a0.lemma=及ぼす&.POS=動詞&.POS2=自立&.case=""&.casePOS=""&.casePOS2=""&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
     *
-    (.lemma=当社|当社グループ&.POS=名詞&.POS2=一般&.case=の&.casePOS=助詞&.casePOS2=連体化)
-    *
-    (.lemma=影響&.POS=名詞&.POS2=サ変接続&.case=を&.casePOS=助詞&.casePOS2=格助詞
+    (.lemma=影響&.POS=名詞&.POS2=サ変接続&.case=を&.casePOS=助詞&.casePOS2=格助詞&.symbol=""&.suf=""&.tense=""&.suf_str=""&.tense_str=""
       *
     )
   )

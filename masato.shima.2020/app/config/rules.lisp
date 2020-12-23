@@ -20,7 +20,7 @@
 ((id . template2))
   (.lemma=及ぼす&.POS=動詞&.POS2=自立
     *
-    (.lemma=当社グループ&.POS=名詞&.POS2=一般&.case=の&.casePOS=助詞&.casePOS2=連体化)
+    (.lemma=当社|当社グループ&.POS=名詞&.POS2=一般&.case=の&.casePOS=助詞&.casePOS2=連体化)
     *
     (.lemma=影響&.POS=名詞&.POS2=サ変接続&.case=を&.casePOS=助詞&.casePOS2=格助詞
       *
